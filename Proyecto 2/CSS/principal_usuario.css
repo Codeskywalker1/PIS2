@@ -1,0 +1,109 @@
+/*cuerpo*/
+body{
+    color: whitesmoke;
+    background-color: rgba(9, 8, 95, 0.966);
+}
+
+/* encabezado*/
+#encabezado, #piePagina{
+    background-color: black;
+}
+
+#encabezado ul{
+    list-style: none;
+    vertical-align: top;
+    padding-left: 0;
+}
+
+.encabezado2{
+    vertical-align: top;
+    display: inline-block;
+}
+
+#encabezado a{
+    background-color: black;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+#encabezado li{
+    font-size: 1.5em;
+
+}
+
+.menu{
+    margin-left:0;
+    margin-right: 4rem;
+}
+
+.imagenCabecera{
+    width: 50px;
+    padding: 10px;
+}
+
+#persona{
+    margin-left: 5rem;
+}
+
+.menu a:hover{
+    background-color: #434343;
+}
+
+.nav > li{
+    float: left;
+}
+
+.nav li ul{
+    display: none;
+    position: absolute;
+}
+
+.nav li:hover > ul{
+    display: block;
+}
+
+.menu ul{
+    background-color: black;
+}
+.menu ul li a{
+    background-color: black;
+    font-size: 20px;
+}
+
+/*pie de pagina*/
+
+.imagenPiePagina{
+    width: 40px;
+    padding: 10px;
+    margin-left: 2em;
+}
+
+#piePagina li, #piePagina span{
+    vertical-align: top;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+span{
+    margin-left: 10em;
+}
+
+/*seccion de noticias, juegos nuevos, juegos oferta*/
+
+#Ultimas_Noticias, #Juegos_nuevos, #JuegosOferta{
+    margin-left: 1rem;
+}
+
+#Ultimas_Noticias a, #Juegos_nuevos a , #JuegosOferta a{
+    color: whitesmoke;
+    text-decoration: none;
+} 
+
+.imgCuadricula{
+    max-width: 160px;
+}
+
+.Cuadricula{
+    display: inline-block;
+    margin-left: 3rem;
+}

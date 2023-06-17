@@ -1,0 +1,261 @@
+/*cuerpo*/
+body{
+    color: whitesmoke;
+    background-color: rgba(9, 8, 95, 0.966);
+}
+
+/* encabezado*/
+
+#encabezado, #piePagina{
+    background-color: black;
+}
+
+#encabezado ul{
+    list-style: none;
+    vertical-align: top;
+    padding-left: 0;
+}
+
+.encabezado2{
+    vertical-align: top;
+    display: inline-block;
+}
+
+#encabezado a{
+    background-color: black;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+#encabezado li{
+    font-size: 1.5em;
+
+}
+
+.menu{
+    margin-left:0;
+    margin-right: 5rem;
+}
+
+.imagenCabecera{
+    width: 50px;
+    padding: 10px;
+}
+
+#persona{
+    margin-left: 25rem;
+}
+
+.menu a:hover{
+    background-color: #434343;
+}
+
+.nav > li{
+    float: left;
+}
+
+.nav li ul{
+    display: none;
+    position: absolute;
+}
+
+.nav li:hover > ul{
+    display: block;
+}
+
+.menu ul{
+    background-color: black;
+}
+.menu ul li a{
+    background-color: black;
+    font-size: 20px;
+}
+
+/*pie de pagina*/
+
+.imagenPiePagina{
+    width: 40px;
+    padding: 10px;
+    margin-left: 2em;
+}
+
+#piePagina li, #piePagina span{
+    vertical-align: top;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+span{
+    margin-left: 10em;
+}
+
+/* cuadro*/ 
+
+#CuadroInicio{
+    margin-left: 20em;
+    margin-bottom: 3em;
+    width: 800px;
+    height: 400px;
+    padding: 20px;
+    background: rgba(0, 0, 0, .6);
+    box-shadow: 0 15px 25px  rgba(229, 243, 26, 0.856);
+}
+
+h1{
+    font-family: sans-serif;
+    margin-bottom: 0;
+    color: whitesmoke;
+    margin-left: 13em;
+}
+
+#primera, #segunda{
+    vertical-align: top;
+    display: inline-block;
+    max-width: 50%;
+}
+
+
+#primera{
+    margin-top: 0em;
+}
+
+#primera input{
+    margin: 0em;
+}
+
+
+#CuadroInicio a{
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#CuadroInicio input{
+    text-align: center;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    color: whitesmoke;
+    border: none;
+    border-bottom: 2px solid #fff;
+    background: transparent;
+    margin-bottom: 3rem;
+    outline: none;
+}
+
+#CuadroInicio h4{
+    text-align: center;
+    color: #03e9f4;
+}
+
+#Principal a{
+    color: #03e9f4;
+    text-decoration: solid;
+    transition: .5s;
+}
+
+#CuadroInicio label{
+    font-size: 25px;
+    color: #fff;
+}
+#primera a{
+    color: whitesmoke;
+    text-decoration: solid;
+}
+
+
+#logocuadro{
+    margin-top: 1em;
+    margin-left: 6em;
+    display: inline-block;
+    max-width: 250px;
+}
+
+#segunda a{
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #03e9f4;
+    font-size: 2em;
+    text-decoration: none;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 30px;
+    margin-left: 5em;
+}
+
+
+#segunda a:hover{
+    background: #03e9f4;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 100px #03e9f4;
+}
+
+#segunda span{
+    position: absolute;
+    display: block;
+}
+
+#segunda span:nth-child(1){
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent, #03e9f4);
+    animation: btn-anim1 1s linear infinite;
+}
+
+@keyframes btn-anim1 {
+    0%{
+        left: -100%;
+    }
+    50%, 100%{
+        left: 100%;
+    }
+}
+
+#segunda span:nth-child(2){
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent, #03e9f4);
+    animation: btn-anim2 1s linear infinite;
+    animation-delay: .25s;
+}
+
+@keyframes btn-anim2 {
+    0%{
+        top: -100%;
+    }
+    50%, 100%{
+        top: 100%;
+    }
+}
+
+#segunda span:nth-child(3){
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg,transparent, #03e9f4);
+    animation: btn-anim3 1s linear infinite;
+    animation-delay: .5;
+}
+
+@keyframes btn-anim3 {
+    0%{
+        right: -100%;
+    }
+    50%, 100%{
+        right: 100%;
+    }
+}
+
+
+

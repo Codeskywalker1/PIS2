@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+
+
+/*cuerpo*/
+body{
+    color: whitesmoke;
+    background-color: rgba(9, 8, 95, 0.966);
+}
+
+/* encabezado*/
+#encabezado, #piePagina{
+    background-color: black;
+}
+
+#encabezado ul{
+    list-style: none;
+    vertical-align: top;
+    padding-left: 0;
+}
+
+.encabezado2{
+    vertical-align: top;
+    display: inline-block;
+}
+
+#encabezado a{
+    background-color: black;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+#encabezado li{
+    font-size: 1.5em;
+
+}
+
+.menu{
+    margin-left:0;
+    margin-right: 4rem;
+}
+
+.imagenCabecera{
+    width: 50px;
+    padding: 10px;
+}
+
+#persona{
+    margin-left: 5rem;
+}
+
+.menu a:hover{
+    background-color: #434343;
+}
+
+.nav > li{
+    float: left;
+}
+
+.nav li ul{
+    display: none;
+    position: absolute;
+}
+
+.nav li:hover > ul{
+    display: block;
+}
+
+.menu ul{
+    background-color: black;
+}
+.menu ul li a{
+    background-color: black;
+    font-size: 20px;
+}
+
+
+/*pie de pagina*/
+
+.imagenPiePagina{
+    width: 40px;
+    padding: 10px;
+    margin-left: 2em;
+}
+
+#piePagina li, #piePagina span{
+    vertical-align: top;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+span{
+    margin-left: 10em;
+}
+
+/*mensajes*/
+
+h1{
+    
+    font-family: 'Slabo 27px', serif;
+    font-size: 3em;
+    margin-left: 5em;
+    margin-bottom: 0;
+}
+
+#box{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    overflow: auto;
+    color: whitesmoke;
+    margin-left: 12em;
+    margin-bottom: 3em;
+    width: 900px;
+    height: 400px;
+    padding: 20px;
+    background: rgb(3, 3, 3);
+    box-shadow: 0 10px 30px 30px rgba(134, 16, 0, 0.856);
+    line-height: 20px;
+    text-align: justify;
+}
+
+
+#box2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    overflow: auto;
+    color: whitesmoke;
+    margin-top: 2em;
+    margin-left: 2em;
+    margin-bottom: 3em;
+    width: 450px;
+    height: 170px;
+    padding: 20px;
+    background: rgba(32, 32, 32);
+    box-shadow: 0 10px 10px 10px rgba(13, 14, 11, 0.856);
+    line-height: 20px;
+    text-align: justify;
+    font-weight: bold;
+}
+
+#box2 p{
+    font-size: 15px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.p2{
+    margin: 0;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+#primera label{
+    margin: 4em;
+    font-weight: bold;
+}
+
+#primera input{
+    display: block;
+    margin-left: 4em;
+    width: 80%;
+    font-weight: bold;
+}
+
+#primera, #segunda{
+    display: inline-block;
+    vertical-align: top;
+}
+
+#imagenAmigo{
+    margin-top: 2em;
+    margin-left: 7em;
+    width: 180px;
+}
+
+#segunda input{
+    margin-top: 3.5em;
+    margin-left: 6em;
+    display: block;
+    font-size: 25px;
+}
+
+#box form{
+    margin-bottom: 2em;
+}
+
+#box a{
+    margin-left: 30em;
+}
+
