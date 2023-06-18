@@ -8,7 +8,6 @@ body{
 }
 
 /* encabezado*/
-
 #encabezado, #piePagina{
     background: rgba(0, 0, 0, .7);
 }
@@ -25,7 +24,6 @@ body{
 }
 
 #encabezado a{
-    
     color: whitesmoke;
     text-decoration: none;
 }

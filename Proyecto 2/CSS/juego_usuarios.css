@@ -1,12 +1,16 @@
 /*cuerpo*/
 body{
     color: whitesmoke;
-    background-color: rgba(9, 8, 95, 0.966);
+    background-image:url("../Imagenes/Amadeus-Fondo.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 /* encabezado*/
+
 #encabezado, #piePagina{
-    background-color: black;
+    background: rgba(0, 0, 0, .7);
 }
 
 #encabezado ul{
@@ -21,7 +25,7 @@ body{
 }
 
 #encabezado a{
-    background-color: black;
+    
     color: whitesmoke;
     text-decoration: none;
 }
@@ -63,15 +67,18 @@ body{
 }
 
 .menu ul{
-    background-color: black;
+    background: rgba(0, 0, 0, .9);
 }
 .menu ul li a{
-    background-color: black;
+    background: rgba(0, 0, 0, .9);
     font-size: 20px;
 }
 
-
 /*pie de pagina*/
+
+#piePagina a{
+    color: whitesmoke;
+}
 
 .imagenPiePagina{
     width: 40px;
@@ -121,6 +128,7 @@ span{
 }
 
 #DatosJuego button{
+    margin-left: 3em;
     font-size: 1.5em;
 }
 
@@ -128,10 +136,15 @@ span{
     font-size: 1.5em;
     border-collapse: collapse;
     margin-top: 1em;
-    background-color: black;
+    background-color: rgba(0, 0, 0, .8);
 }
 
 #tabla td {
     padding: 1em;
     border-bottom: rgb(16, 240, 240) 5px solid;
+}
+
+#reseña{
+    margin-left: 7em;
+    font-size: 1.5em;
 }

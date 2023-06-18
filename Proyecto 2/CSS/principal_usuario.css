@@ -1,12 +1,15 @@
 /*cuerpo*/
 body{
     color: whitesmoke;
-    background-color: rgba(9, 8, 95, 0.966);
+    background-image:url("../Imagenes/Amadeus-Fondo.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 /* encabezado*/
 #encabezado, #piePagina{
-    background-color: black;
+    background-color: rgba(0, 0, 0, .7);
 }
 
 #encabezado ul{
@@ -21,14 +24,12 @@ body{
 }
 
 #encabezado a{
-    background-color: black;
     color: whitesmoke;
     text-decoration: none;
 }
 
 #encabezado li{
     font-size: 1.5em;
-
 }
 
 .menu{
@@ -63,14 +64,18 @@ body{
 }
 
 .menu ul{
-    background-color: black;
+    background: rgba(0, 0, 0, .9);
 }
 .menu ul li a{
-    background-color: black;
+    background: rgba(0, 0, 0, .9);
     font-size: 20px;
 }
 
 /*pie de pagina*/
+
+#piePagina a{
+    color: whitesmoke;
+}
 
 .imagenPiePagina{
     width: 40px;
@@ -100,7 +105,9 @@ span{
 } 
 
 .imgCuadricula{
+    max-height: 160px;
     max-width: 160px;
+    box-shadow: 15px 25px 25px  rgba(26, 90, 150, 0.856);
 }
 
 .Cuadricula{

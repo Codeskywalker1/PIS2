@@ -8,7 +8,6 @@ body{
 }
 
 /* encabezado*/
-
 #encabezado, #piePagina{
     background: rgba(0, 0, 0, .7);
 }
@@ -25,14 +24,12 @@ body{
 }
 
 #encabezado a{
-    
     color: whitesmoke;
     text-decoration: none;
 }
 
 #encabezado li{
     font-size: 1.5em;
-
 }
 
 .menu{
@@ -117,7 +114,3 @@ span{
     display: inline-block;
     margin-left: 3rem;
 }
-
-
-
-

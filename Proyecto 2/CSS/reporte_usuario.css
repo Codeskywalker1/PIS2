@@ -3,12 +3,16 @@
 /*cuerpo*/
 body{
     color: whitesmoke;
-    background-color: rgba(9, 8, 95, 0.966);
+    background-image:url("../Imagenes/Amadeus-Fondo.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 /* encabezado*/
+
 #encabezado, #piePagina{
-    background-color: black;
+    background: rgba(0, 0, 0, .7);
 }
 
 #encabezado ul{
@@ -23,7 +27,7 @@ body{
 }
 
 #encabezado a{
-    background-color: black;
+    
     color: whitesmoke;
     text-decoration: none;
 }
@@ -65,14 +69,18 @@ body{
 }
 
 .menu ul{
-    background-color: black;
+    background: rgba(0, 0, 0, .9);
 }
 .menu ul li a{
-    background-color: black;
+    background: rgba(0, 0, 0, .9);
     font-size: 20px;
 }
 
 /*pie de pagina*/
+
+#piePagina a{
+    color: whitesmoke;
+}
 
 .imagenPiePagina{
     width: 40px;
@@ -89,7 +97,6 @@ body{
 span{
     margin-left: 10em;
 }
-
 /*reporte*/
 
 h1{
@@ -104,13 +111,13 @@ h1{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     overflow: auto;
     color: whitesmoke;
-    margin-left: 12em;
+    margin-left: 10em;
     margin-bottom: 3em;
-    width: 900px;
-    height: 410px;
-    padding: 20px;
-    background: rgb(3, 3, 3);
-    box-shadow: 0 10px 30px 30px rgba(134, 16, 0, 0.856);
+    width: 1000px;
+    height: 450px;
+    padding: 10px;
+    background: rgb(3, 3, 3, .8);
+    box-shadow: 0 15px 30px 30px rgba(172, 52, 37, 0.856);
     line-height: 20px;
     text-align: justify;
 }
@@ -119,13 +126,12 @@ h1{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     overflow: auto;
     color: whitesmoke;
-    
     margin-left: 2em;
     margin-bottom: 2em;
     width: 450px;
     height: 170px;
     padding: 20px;
-    background: rgba(32, 32, 32);
+    background: rgba(32, 32, 32, .7);
     box-shadow: 0 10px 10px 10px rgba(13, 14, 11, 0.856);
     line-height: 20px;
     text-align: justify;
@@ -145,12 +151,21 @@ h1{
     width: 150px;
 }
 
+#segunda{
+    max-width: 30%;
+}
+
+#segunda a{
+    text-decoration:none;
+}
+
 #segunda input{
     margin-top: 3.5em;
     margin-left: 6em;
     display: block;
     font-size: 25px;
 }
+
 
 #box form{
     margin-bottom: 2em;
