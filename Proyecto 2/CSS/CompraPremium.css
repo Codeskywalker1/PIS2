@@ -1,0 +1,240 @@
+/*cuerpo*/
+body{
+    color: whitesmoke;
+    background-image:url("../Imagenes/Amadeus-Fondo.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* encabezado*/
+#encabezado, #piePagina{
+    background-color: rgba(0, 0, 0, .7);
+}
+
+#encabezado ul{
+    list-style: none;
+    vertical-align: top;
+    padding-left: 0;
+}
+
+.encabezado2{
+    vertical-align: top;
+    display: inline-block;
+}
+
+#encabezado a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+#encabezado li{
+    font-size: 1.5em;
+}
+
+.menu{
+    margin-left:0;
+    margin-right: 4rem;
+}
+
+.imagenCabecera{
+    width: 50px;
+    padding: 10px;
+}
+
+#persona{
+    margin-left: 5rem;
+}
+
+.menu a:hover{
+    background-color: #434343;
+}
+
+.nav > li{
+    float: left;
+}
+
+.nav li ul{
+    display: none;
+    position: absolute;
+}
+
+.nav li:hover > ul{
+    display: block;
+}
+
+.menu ul{
+    background: rgba(0, 0, 0, .9);
+}
+.menu ul li a{
+    background: rgba(0, 0, 0, .9);
+    font-size: 20px;
+}
+
+/*pie de pagina*/
+
+#piePagina a{
+    color: whitesmoke;
+}
+
+.imagenPiePagina{
+    width: 40px;
+    padding: 10px;
+    margin-left: 2em;
+}
+
+#piePagina li, #piePagina span{
+    vertical-align: top;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+span{
+    margin-left: 10em;
+}
+
+/*Lista premium y compra*/
+
+h1{
+    text-align: center;
+    font-family: 'Slabo 27px', serif;
+    font-size: 3em;
+}
+
+#box{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    overflow: auto;
+    color: whitesmoke;
+    margin-left: 10em;
+    margin-bottom: 3em;
+    width: 1000px;
+    height: 450px;
+    padding: 10px;
+    background: rgb(3, 3, 3, .8);
+    box-shadow: 0 15px 30px 30px rgba(28, 203, 216, 0.856);
+    line-height: 20px;
+    text-align: justify;
+}
+
+#primera, #segunda{
+    display: inline-block;
+    vertical-align: top;
+}
+
+/*segunda parte*/
+#imagenAmigo{
+    margin-top: 2em;
+    margin-left: 7em;
+    width: 150px;
+}
+
+
+#box form{
+    margin-bottom: 2em;
+}
+
+#box a{
+    margin-left: 30em;
+}
+
+
+#primera2{
+    margin-left: 5em;
+    margin-top: 3em;
+}
+
+#primera2 li{
+    font-size: large;
+    font-weight: bolder;
+    margin-top: 2em;
+}
+
+#primera2 label{
+    color: #fff;
+}
+
+#segunda a{
+    margin-top: 3em;
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #03e9f4;
+    font-size: 2em;
+    text-decoration: none;
+    overflow: hidden;
+    transition: .5s;
+    margin-left: 4em;
+}
+
+
+#segunda a:hover{
+    background: #03e9f4;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 100px #03e9f4;
+}
+
+#segunda span{
+    position: absolute;
+    display: block;
+}
+
+#segunda span:nth-child(1){
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent, #03e9f4);
+    animation: btn-anim1 1s linear infinite;
+}
+
+@keyframes btn-anim1 {
+    0%{
+        left: -100%;
+    }
+    50%, 100%{
+        left: 100%;
+    }
+}
+
+#segunda span:nth-child(2){
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent, #03e9f4);
+    animation: btn-anim2 1s linear infinite;
+    animation-delay: .25s;
+}
+
+@keyframes btn-anim2 {
+    0%{
+        top: -100%;
+    }
+    50%, 100%{
+        top: 100%;
+    }
+}
+
+#segunda span:nth-child(3){
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg,transparent, #03e9f4);
+    animation: btn-anim3 1s linear infinite;
+    animation-delay: .5;
+}
+
+@keyframes btn-anim3 {
+    0%{
+        right: -100%;
+    }
+    50%, 100%{
+        right: 100%;
+    }
+}

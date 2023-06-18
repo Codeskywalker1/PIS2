@@ -1,15 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../CSS/normalize.css">
-    <link rel="stylesheet" href="../CSS/pago_usuario.css">
-    <title>Juegos</title>
+    <link rel="stylesheet" href="../CSS/MiJuego.css">
+    <title>Juego</title>
 </head>
-
 <body>
     <header id="encabezado">
         <nav>
@@ -44,40 +42,39 @@
             </div>
         </nav>
     </header>
-    <h1>Pago</h1>
-    <div id="CuadroRegistro">
-        <form action="">
-            <div>
-                <label for="fnombre"> Nombre del juego</label> <br> <br>
-                <label for="fnombre"> $10000 </label> <br> <br>
-                <label for="ftitular"> Nombre del titular de la tarjeta</label>
-                <input type="text" id="ftitular" name="titular">
-
-                <label for="ftarjeta"> Número de tarjeta </label>
-                <input type="text" id="ftarjeta" name="tarjeta">
-            
-                
-                <div class="fecha">
-                    <label for="fmes"> MM </label> 
-                      <input type="text" id="fmes" name="mes">
-                </div>
-                <div class="fecha">
-                    <p> &nbsp; / &nbsp; </p>
-                </div>
-                <div class="fecha">
-                    <label for="faño"> YYYY </label> 
-                    <input type="text" id="faño" name="año">
-                </div>
-                <div>
-                    <label for="fcvv"> CVV </label> 
-                    <input type="text" id="fcvv" name="cvv">
-                </div>
-            </div>
-        </form> <br><br>
-        <a href=""> <button> Pagar </button> </a>
-        <a href="../HTML/CompraPremium.html"> <button> Regresar </button> </a>
-        
-    </div>
+    <section>
+        <div id="ilustracionJuego">
+            <figure>
+                <img id=juego src="../Imagenes/Noticias/pokemon scarlet and violet.png" alt="imagen del juego">
+                <figcaption> Atrapa, combate y entrena Pokémon en la región de Paldea, una vasta tierra llena de lagos, cimas montañosas, páramos, poblaciones pequeñas y grandes ciudades. Explora un mundo completamente abierto a tu propio paso y recorre a través de la tierra, el agua y el aire a lomos del Pokémon legendario Koraidon, que puede cambiar de forma en Pokémon Scarlet, o sobre el Pokémon legendario Miraidon, que puede cambiar de forma en Pokémon Violet. Elige entre Sprigatito, Fuecoco o Quaxly para que sea tu primer compañero Pokémon antes de lanzarte en tu aventura a través de Paldea.</figcaption>
+            </figure>
+        </div>
+        <div id="DatosJuego">
+            <h1>Pokemon</h1>
+            <a href="../HTML/misjuegos_usuario.html"><button>Regresar</button></a>
+            <a href=""><button>DLC</button></a>
+            <button> Jugar </button>
+            <table id="tabla">
+                <tr class="linea">
+                    <td>Desarrollador</td>
+                    <td>Nintendo</td>
+                </tr>
+                <tr class="linea">
+                    <td>Editora</td>
+                    <td>Electronic Arts</td>
+                </tr>
+                <tr class="linea">
+                    <td>Fecha de lanzamiento</td>
+                    <td>30/09/22</td>
+                </tr>
+                <tr>
+                    <td>Plataforma</td>
+                    <td>Windows, Mac</td>
+                </tr>
+            </table>
+            <a id="reseña" href=""><button>Reseñar</button></a>
+        </div>
+    </section>
     <footer id="piePagina">
         <img class="imagenPiePagina" src="../Imagenes/Instagram.png" alt="no se encontro instgram">
         <li><a href="../Imagenes/Noticias/persona3P.png"> @Amadeus </a> </li>
@@ -87,3 +84,4 @@
             y otros paises </span>
     </footer>
 </body>
+</html>
