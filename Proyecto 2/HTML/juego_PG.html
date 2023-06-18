@@ -1,16 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../CSS/normalize.css">
-    <link rel="stylesheet" href="../CSS/reporte_PG.css">
-    <title>Reporte</title>
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="../CSS/juego_PG.css">
+    <title>Juego</title>
 </head>
-
 <body>
     <header id="encabezado">
         <nav>
@@ -39,30 +36,37 @@
         </nav>
     </header>
     <section>
-        <h1>Reporte</h1>
-        <div id="box">
-            <form action="">
-                <div id="primera">
-                    <textarea name="" id="box2" cols="30" rows="10"></textarea>
-                    <div id="primera2">
-                        <label for="fcorreo"> Correo electronico </label>
-                        <input type="email" id="fcorreo" name="Correo">
-                        <p>Se le recuerda que la contestación llegara directamente al correo ingresado</p>
-                    </div>
-                </div>
-                <div id="segunda">
-                    <img id="imagenAmigo" src="../Imagenes/persona.png" alt="imagenAmigo">
-                    <a href="" onclick="mostrar()"> <input type="submit" value="Enviar" ></a>
-                </div>
-            </form>
-            <a href="amigos.html"><button>Regresar</button> </a>
+        <div id="ilustracionJuego">
+            <figure>
+                <video id=juego src="../Videos/Pokémon Scarlet  Pokémon Violet  Tráiler de Lanzamiento  Nintendo Switch_1080pFHR.mp4" controls>
+                <figcaption> Atrapa, combate y entrena Pokémon en la región de Paldea, una vasta tierra llena de lagos, cimas montañosas, páramos, poblaciones pequeñas y grandes ciudades. Explora un mundo completamente abierto a tu propio paso y recorre a través de la tierra, el agua y el aire a lomos del Pokémon legendario Koraidon, que puede cambiar de forma en Pokémon Scarlet, o sobre el Pokémon legendario Miraidon, que puede cambiar de forma en Pokémon Violet. Elige entre Sprigatito, Fuecoco o Quaxly para que sea tu primer compañero Pokémon antes de lanzarte en tu aventura a través de Paldea.</figcaption>
+            </figure>
+        </div>
+        <div id="DatosJuego">
+            <h1>Nombre del juego</h1>
+            <p>$ 1400</p>
+            <a href="../HTML/juegos_PG.html"><button>Regresar</button></a>
+            <a href="../HTML/Index.html"><button>Comprar</button></a>
+            <table id="tabla">
+                <tr class="linea">
+                    <td>Desarrollador</td>
+                    <td>Nintendo</td>
+                </tr>
+                <tr class="linea">
+                    <td>Editora</td>
+                    <td>The pokemon Company</td>
+                </tr>
+                <tr class="linea">
+                    <td>Fecha de lanzamiento</td>
+                    <td>30/09/22</td>
+                </tr>
+                <tr>
+                    <td>Plataforma</td>
+                    <td>Windows, Mac</td>
+                </tr>
+            </table>
         </div>
     </section>
-    <script type="text/javascript">
-        function mostrar(){
-            swal('Gracias', 'reporte enviado');
-        }
-    </script>
     <footer id="piePagina">
         <img class="imagenPiePagina" src="../Imagenes/Instagram.png" alt="no se encontro instgram">
         <li><a href="../Imagenes/Noticias/persona3P.png"> @Amadeus </a> </li>
@@ -72,5 +76,4 @@
             y otros paises </span>
     </footer>
 </body>
-
 </html>

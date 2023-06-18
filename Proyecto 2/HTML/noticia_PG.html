@@ -6,9 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../CSS/normalize.css">
-    <link rel="stylesheet" href="../CSS/reporte_PG.css">
-    <title>Reporte</title>
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="../CSS/noticia_PG.css">
+    <title>Noticia</title>
 </head>
 
 <body>
@@ -38,31 +37,25 @@
             </div>
         </nav>
     </header>
-    <section>
-        <h1>Reporte</h1>
-        <div id="box">
-            <form action="">
-                <div id="primera">
-                    <textarea name="" id="box2" cols="30" rows="10"></textarea>
-                    <div id="primera2">
-                        <label for="fcorreo"> Correo electronico </label>
-                        <input type="email" id="fcorreo" name="Correo">
-                        <p>Se le recuerda que la contestación llegara directamente al correo ingresado</p>
-                    </div>
-                </div>
-                <div id="segunda">
-                    <img id="imagenAmigo" src="../Imagenes/persona.png" alt="imagenAmigo">
-                    <a href="" onclick="mostrar()"> <input type="submit" value="Enviar" ></a>
-                </div>
-            </form>
-            <a href="amigos.html"><button>Regresar</button> </a>
-        </div>
-    </section>
-    <script type="text/javascript">
-        function mostrar(){
-            swal('Gracias', 'reporte enviado');
-        }
-    </script>
+    <article id="Articulo">
+        <h1 id="Titulo principal">¡Ha dado comienzo una nueva temporada de Combates Clasificatorios de Pokémon Escarlata
+            y Pokémon Púrpura! </h1>
+
+        <figure id="figura">
+            <img id="imagenArticulo" src="../Imagenes/Noticias/pokemon scarlet and violet.png"
+                alt="imagen de la noticia">
+            <figcaption>descripcion imagen</figcaption>
+        </figure>
+        <p id="parrafo1"><span> P </span> onte a prueba enfrentándote a jugadores de todo el mundo en
+            estos combates para ascender en la clasificación mundial y conseguir recompensas muy útiles para tu partida.</p>
+
+        <p class="parrafo" > Esta 2.ª temporada de Combates Clasificatorios concluirá el 31 de enero de 2023 a las 23:59 UTC y se regirá
+            por el reglamento de la 1.ª serie. También estará permitido que los Pokémon se teracristalicen.</p>
+        <h2 class="subtitulo">Pokémon permitidos</h2>
+        <p class="parrafo">Están permitidos los Pokémon de la Pokédex de Paldea del n.º 001 al 375 y del n.º 388 al 392. Los Pokémon que
+            no están en la Pokédex de Paldea y los Pokémon Paradoja no pueden participar.</p>
+        <a href="../HTML/noticias_PG.html"><button>Regresar</button></a>
+        </article>
     <footer id="piePagina">
         <img class="imagenPiePagina" src="../Imagenes/Instagram.png" alt="no se encontro instgram">
         <li><a href="../Imagenes/Noticias/persona3P.png"> @Amadeus </a> </li>

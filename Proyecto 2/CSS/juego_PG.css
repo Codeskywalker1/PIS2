@@ -96,65 +96,54 @@ span{
     margin-left: 10em;
 }
 
-/*seccion categoria*/
-#Categorias{
+
+/*imagen juego*/
+
+#ilustracionJuego, #DatosJuego {
+    display: inline-block;
+    margin-top: 4em;
+    
+}
+
+#ilustracionJuego{
+    margin-top: 10em;
+    text-align: justify;
+    max-width: 50%;
+}
+
+#juego{
+    max-width: 100%;
+}
+
+/*datos juego*/
+
+#DatosJuego{
+    margin-left: 2em;
+    text-align: center;
     vertical-align: top;
-    background: rgba(15, 212, 212, 0.6);
-    box-shadow: 0 15px 25px  rgba(17, 83, 146, 0.856);
-    color: whitesmoke;
-    display: inline-block;
-    margin: 2em;
+    margin-bottom: 2em;
 }
 
-#Categorias h1{
-    margin-left: 1em;
+#DatosJuego p{
+    font-size: 1.5em;
 }
 
-#Categorias li{
-    list-style: none;
-    margin-top: 1rem;
-    margin-right: 1em;
+#DatosJuego button{
+    margin-left: 3em;
+    font-size: 1.5em;
+}
+
+#tabla{
+    font-size: 1.5em;
+    border-collapse: collapse;
+    margin-top: 1em;
+    background-color: rgba(0, 0, 0, .8);;
+}
+
+#tabla td {
+    padding: 1em;
+    border-bottom: rgb(16, 240, 240) 5px solid;
 }
 
 
-#Categorias a{
-    color: whitesmoke;
-    text-decoration: none;
-    font-size: 1.5rem;
-}
 
-/*lista de juegos*/
-
-#ListaJuegos{
-    text-align: center;
-    width: 75%;
-    display: inline-block;
-    margin-left: 1rem;
-}
-
-#ListaJuegos h1{
-    text-align: center;
-}
-
-.imgCuadricula{
-    max-height: 160px;
-    max-width: 160px;
-    box-shadow: 15px 25px 25px  rgba(26, 90, 150, 0.856);
-}
-
-.Cuadricula{
-    display: inline-block;
-}
-
-#ListaJuegos nav{
-    text-align: center;
-}
-
-#ListaJuegos li, #ListaJuegos span{
-    display: inline-block;
-    margin-left: 1em;
-}
-
-#ListaJuegos a{
-    color: whitesmoke;
-}

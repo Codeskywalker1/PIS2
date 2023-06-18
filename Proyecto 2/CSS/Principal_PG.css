@@ -108,7 +108,9 @@ span{
 } 
 
 .imgCuadricula{
-    width: 160px;
+    max-height: 160px;
+    max-width: 160px;
+    box-shadow: 15px 25px 25px  rgba(26, 90, 150, 0.856);
 }
 
 .Cuadricula{

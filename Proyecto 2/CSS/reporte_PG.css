@@ -1,0 +1,201 @@
+/*cuerpo*/
+body{
+    color: whitesmoke;
+    background-image:url("../Imagenes/Amadeus-Fondo.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* encabezado*/
+
+#encabezado, #piePagina{
+    background: rgba(0, 0, 0, .7);
+}
+
+#encabezado ul{
+    list-style: none;
+    vertical-align: top;
+    padding-left: 0;
+}
+
+.encabezado2{
+    vertical-align: top;
+    display: inline-block;
+}
+
+#encabezado a{
+    
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+#encabezado li{
+    font-size: 1.5em;
+
+}
+
+.menu{
+    margin-left:0;
+    margin-right: 5rem;
+}
+
+.imagenCabecera{
+    width: 50px;
+    padding: 10px;
+}
+
+#persona{
+    margin-left: 25rem;
+}
+
+.menu a:hover{
+    background-color: #434343;
+}
+
+.nav > li{
+    float: left;
+}
+
+.nav li ul{
+    display: none;
+    position: absolute;
+}
+
+.nav li:hover > ul{
+    display: block;
+}
+
+.menu ul{
+    background: rgba(0, 0, 0, .9);
+}
+.menu ul li a{
+    background: rgba(0, 0, 0, .9);
+    font-size: 20px;
+}
+
+/*pie de pagina*/
+
+#piePagina a{
+    color: whitesmoke;
+}
+
+.imagenPiePagina{
+    width: 40px;
+    padding: 10px;
+    margin-left: 2em;
+}
+
+#piePagina li, #piePagina span{
+    vertical-align: top;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+span{
+    margin-left: 10em;
+}
+/*Reporte*/
+h1{
+    
+    font-family: 'Slabo 27px', serif;
+    font-size: 3em;
+    margin-left: 5em;
+    margin-bottom: 0;
+}
+
+#box{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    overflow: auto;
+    color: whitesmoke;
+    margin-left: 10em;
+    margin-bottom: 3em;
+    width: 1000px;
+    height: 450px;
+    padding: 10px;
+    background: rgb(3, 3, 3, .96);
+    box-shadow: 0 15px 30px 30px rgba(172, 52, 37, 0.856);
+    line-height: 20px;
+    text-align: justify;
+}
+
+#box2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    overflow: auto;
+    color: whitesmoke;
+    margin-left: 2em;
+    margin-bottom: 2em;
+    width: 450px;
+    height: 170px;
+    padding: 20px;
+    background: rgba(32, 32, 32, .7);
+    box-shadow: 0 10px 10px 10px rgba(13, 14, 11, 0.856);
+    line-height: 20px;
+    text-align: justify;
+    font-weight: bold;
+}
+
+
+#primera, #segunda{
+    display: inline-block;
+    vertical-align: top;
+}
+
+/*segunda parte*/
+#imagenAmigo{
+    margin-top: 2em;
+    margin-left: 7em;
+    width: 150px;
+}
+
+#segunda{
+    max-width: 30%;
+}
+
+#segunda a{
+    text-decoration:none;
+}
+
+#segunda input{
+    margin-top: 3.5em;
+    margin-left: 6em;
+    display: block;
+    font-size: 25px;
+}
+
+
+#box form{
+    margin-bottom: 2em;
+}
+
+#box a{
+    margin-left: 30em;
+}
+
+
+#primera2{
+    margin-left: 8em;
+}
+
+#primera2 input{
+    text-align: center;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    color: whitesmoke;
+    border: none;
+    border-bottom: 2px solid #fff;
+    background: transparent;
+    outline: none;
+    margin-bottom: .5em;
+}
+
+#primera2 label{
+    font-size: 20px;
+    color: #fff;
+}
+
+#primera2 p{
+    font-size: 10px;
+}

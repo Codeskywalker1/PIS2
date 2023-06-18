@@ -99,9 +99,8 @@ span{
 /*seccion categoria*/
 #Categorias{
     vertical-align: top;
-    background: rgba(15, 212, 212, 0.6);
-    box-shadow: 0 15px 25px  rgba(17, 83, 146, 0.856);
-    color: whitesmoke;
+    background-color: aqua;
+    color: black;
     display: inline-block;
     margin: 2em;
 }
@@ -118,22 +117,23 @@ span{
 
 
 #Categorias a{
-    color: whitesmoke;
+    color: black;
     text-decoration: none;
     font-size: 1.5rem;
 }
 
-/*lista de juegos*/
 
-#ListaJuegos{
+/*lista de noticias*/
+
+#ListaNoticias{
     text-align: center;
-    width: 75%;
     display: inline-block;
     margin-left: 1rem;
 }
 
-#ListaJuegos h1{
+#ListaNoticias h1{
     text-align: center;
+    font-size: 3em;
 }
 
 .imgCuadricula{
@@ -143,18 +143,21 @@ span{
 }
 
 .Cuadricula{
+    text-align: justify;
+    margin-top: 3em;
+    margin-right: 1em;
     display: inline-block;
 }
 
-#ListaJuegos nav{
+#ListaNoticias nav{
     text-align: center;
 }
 
-#ListaJuegos li, #ListaJuegos span{
+#ListaNoticias li, #ListaNoticias span{
     display: inline-block;
     margin-left: 1em;
 }
 
-#ListaJuegos a{
+#ListaNoticias a{
     color: whitesmoke;
 }
