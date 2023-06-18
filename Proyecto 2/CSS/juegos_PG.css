@@ -1,0 +1,159 @@
+/*cuerpo*/
+body{
+    color: whitesmoke;
+    background-image:url("../Imagenes/Amadeus-Fondo.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* encabezado*/
+
+#encabezado, #piePagina{
+    background: rgba(0, 0, 0, .7);
+}
+
+#encabezado ul{
+    list-style: none;
+    vertical-align: top;
+    padding-left: 0;
+}
+
+.encabezado2{
+    vertical-align: top;
+    display: inline-block;
+}
+
+#encabezado a{
+    
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+#encabezado li{
+    font-size: 1.5em;
+
+}
+
+.menu{
+    margin-left:0;
+    margin-right: 5rem;
+}
+
+.imagenCabecera{
+    width: 50px;
+    padding: 10px;
+}
+
+#persona{
+    margin-left: 25rem;
+}
+
+.menu a:hover{
+    background-color: #434343;
+}
+
+.nav > li{
+    float: left;
+}
+
+.nav li ul{
+    display: none;
+    position: absolute;
+}
+
+.nav li:hover > ul{
+    display: block;
+}
+
+.menu ul{
+    background: rgba(0, 0, 0, .9);
+}
+.menu ul li a{
+    background: rgba(0, 0, 0, .9);
+    font-size: 20px;
+}
+
+/*pie de pagina*/
+
+#piePagina a{
+    color: whitesmoke;
+}
+
+.imagenPiePagina{
+    width: 40px;
+    padding: 10px;
+    margin-left: 2em;
+}
+
+#piePagina li, #piePagina span{
+    vertical-align: top;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+span{
+    margin-left: 10em;
+}
+
+/*seccion categoria*/
+#Categorias{
+    vertical-align: top;
+    background: rgba(15, 212, 212, 0.6);
+    box-shadow: 0 15px 25px  rgba(17, 83, 146, 0.856);
+    color: whitesmoke;
+    display: inline-block;
+    margin: 2em;
+}
+
+#Categorias h1{
+    margin-left: 1em;
+}
+
+#Categorias li{
+    list-style: none;
+    margin-top: 1rem;
+    margin-right: 1em;
+}
+
+
+#Categorias a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+/*lista de juegos*/
+
+#ListaJuegos{
+    text-align: center;
+    width: 75%;
+    display: inline-block;
+    margin-left: 1rem;
+}
+
+#ListaJuegos h1{
+    text-align: center;
+}
+
+.imgCuadricula{
+    max-width: 160px;
+    box-shadow: 15px 25px 25px  rgba(17, 83, 146, 0.856);
+}
+
+.Cuadricula{
+    display: inline-block;
+}
+
+#ListaJuegos nav{
+    text-align: center;
+}
+
+#ListaJuegos li, #ListaJuegos span{
+    display: inline-block;
+    margin-left: 1em;
+}
+
+#ListaJuegos a{
+    color: whitesmoke;
+}
