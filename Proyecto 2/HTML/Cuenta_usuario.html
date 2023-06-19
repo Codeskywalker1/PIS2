@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/CSS/normalize.css">
-    <link rel="stylesheet" href="/CSS/Cuenta.css">
+    <link rel="stylesheet" href="../CSS/normalize.css">
+    <link rel="stylesheet" href="../CSS/Cuenta_usuario.css">
     <title>Document</title>
 </head>
 
@@ -44,6 +44,49 @@
             </div>
         </nav>
     </header>
+    <section>
+        <h1>Datos</h1>
+    <div id="CuadroRegistro">
+        <form action="">
+            <div>
+                <label for="fnombre"> Nombre </label> <br> <br>
+                <input type="text" id="fnombre" name="nombre" value="Miguel Etzel Garcia Delgado" readonly>
+                <label for="fcorreo"> Nombre del titular de la tarjeta</label>
+                <input type="mail" id="ftitular" name="titular">
+
+                <label for="ftarjeta"> Número de tarjeta </label>
+                <input type="text" id="ftarjeta" name="tarjeta">
+            
+                
+                <div class="fecha">
+                    <label for="fmes"> MM </label> 
+                      <input type="text" id="fmes" name="mes">
+                </div>
+                <div class="fecha">
+                    <p> &nbsp; / &nbsp; </p>
+                </div>
+                <div class="fecha">
+                    <label for="faño"> YYYY </label> 
+                    <input type="text" id="faño" name="año">
+                </div>
+                <div>
+                    <label for="fcvv"> CVV </label> 
+                    <input type="text" id="fcvv" name="cvv">
+                </div>
+            </div>
+        </form> <br><br>
+        <a href=""> <button> Pagar </button> </a>
+        <a href="../HTML/CompraPremium.html"> <button> Regresar </button> </a>
+    </div>
+    </section>
+    <footer id="piePagina">
+        <img class="imagenPiePagina" src="../Imagenes/Instagram.png" alt="no se encontro instgram">
+        <li><a href="../Imagenes/Noticias/persona3P.png"> @Amadeus </a> </li>
+        <img class="imagenPiePagina" src="../Imagenes/facebook.png" alt="no se encontro faceboob">
+        <li><a href="../Imagenes/Noticias/persona3P.png"> Amadeus </a> </li>
+        <span> Todos los derechos reservados. Todas las marcas registradas pertenecen a sus respectivos dueños en México
+            y otros paises </span>
+    </footer>
 </body>
 
 </html>

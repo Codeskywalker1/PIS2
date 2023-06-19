@@ -1,12 +1,15 @@
 /*cuerpo*/
 body{
     color: whitesmoke;
-    background-color: rgba(9, 8, 95, 0.966);
+    background-image:url("../Imagenes/Amadeus-Fondo.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 /* encabezado*/
 #encabezado, #piePagina{
-    background-color: black;
+    background-color: rgba(0, 0, 0, .7);
 }
 
 #encabezado ul{
@@ -21,14 +24,12 @@ body{
 }
 
 #encabezado a{
-    background-color: black;
     color: whitesmoke;
     text-decoration: none;
 }
 
 #encabezado li{
     font-size: 1.5em;
-
 }
 
 .menu{
@@ -63,15 +64,18 @@ body{
 }
 
 .menu ul{
-    background-color: black;
+    background: rgba(0, 0, 0, .9);
 }
 .menu ul li a{
-    background-color: black;
+    background: rgba(0, 0, 0, .9);
     font-size: 20px;
 }
 
-
 /*pie de pagina*/
+
+#piePagina a{
+    color: whitesmoke;
+}
 
 .imagenPiePagina{
     width: 40px;
@@ -89,28 +93,77 @@ span{
     margin-left: 10em;
 }
 
-/*seccion categoria*/
-#Categorias{
-    vertical-align: top;
-    background-color: aqua;
-    color: black;
+/*Datos cuenta*/
+
+#CuadroRegistro{
+    font-weight: bolder;
+    margin-left: 30em;
+    margin-bottom: 3em;
+    width: 400px;
+    height: 500px;
+    padding: 20px;
+    background: rgba(0, 0, 0, .9);
+    box-shadow: 0 15px 25px  rgba(11, 235, 216, 0.856);
+}
+
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 0;
+    color: whitesmoke;
+    margin-left: 15em;
+}
+
+
+
+#CuadroRegistro a{
+    text-align: center;
+    font-size: 1.5em;
+    margin-left: 2em;
+}
+
+#ftitular, #ftarjeta, #fnombre{
+    text-align: center;
+    display: block;
+    padding: 10px;
+    font-size: 17px;
+    color: whitesmoke;
+    border-bottom: 2px solid #fff;
+    background: transparent;
+    outline: none;
+    margin-bottom: .5em;
+}
+
+#CuadroRegistro label{
+    font-size: 20px;
+    color: #fff;
+}
+
+
+
+#logocuadro{
+    margin-top: 1em;
+    margin-left: 6em;
+    display: inline;
+    max-width: 250px;
+}
+
+.fecha{
     display: inline-block;
-    margin: 2em;
 }
 
-#Categorias h1{
-    margin-left: 1em;
+#faño, #fmes, #fcvv{
+    display: block;
+    text-align: center;
+    padding: 10px;
+    font-size: 4px;
+    color: whitesmoke;
+    
+    background: transparent;
+    outline: none;
+    margin-bottom: .5em;
 }
 
-#Categorias li{
-    list-style: none;
-    margin-top: 1rem;
-    margin-right: 1em;
+.fecha p{
+    font-size: 2em;
 }
 
-
-#Categorias a{
-    color: black;
-    text-decoration: none;
-    font-size: 1.5rem;
-}
